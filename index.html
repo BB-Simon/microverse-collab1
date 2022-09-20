@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our First Html Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <h1>Hello World, we are software developers!    </h1>
+    <nav id="navbar">
+        <a href="#welcome_section">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact_us">Contact</a>
+    </nav>
+
+    <section id="welcome_section">
+        <h1>Hello, I am Ogudu Chimaobi</h1>
+        <p>I am a Software Developer</p>
+    </section>
+
+    <section id="projects">
+        <h1 id="project_header">These are some of my projects</h1>
+        <div id="project_card_container">
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project_card">
+                <img src="tribute.jpg" alt="">
+                <div class="project_title_wrapper">
+                    <span>
+                        < </span>
+                            <h3>Tribute Page</h3>
+                            <span> /> </span>
+                </div>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project_card">
+                <img src="tribute.jpg" alt="">
+                <div class="project_title_wrapper">
+                    <span>
+                        < </span>
+                            <h3>Tribute Page</h3>
+                            <span> /> </span>
+                </div>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project_card">
+                <img src="tribute.jpg" alt="">
+                <div class="project_title_wrapper">
+                    <span>
+                        < </span>
+                            <h3>Tribute Page</h3>
+                            <span> /> </span>
+                </div>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project_card">
+                <img src="tribute.jpg" alt="">
+                <div class="project_title_wrapper">
+                    <span>
+                        < </span>
+                            <h3>Tribute Page</h3>
+                            <span> /> </span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact_us">
+        <h1>Let's work together...</h1>
+        <p>Let's work together...</p>
+        <form action="" id="contact_form">
+            <input type="text" name="fullanme" id="fullanme" placeholder="Please enter your name..">
+            <input type="text" name="useremail" id="useremail" placeholder="Please enter your email address..">
+            <textarea name="usermsg" id="usermsg" cols="30" rows="10"  placeholder="Please leave your message.."></textarea>
+            <button type="submit" id="contact_button">Send us a message</button>
+        </form>
+    </section>
 </body>
+
 </html>
